@@ -92,4 +92,6 @@ const intervalId = setInterval(logTime, 500);
 
 // question 10
 
-document.querySelector
+setTimeout(() => {
+    divWithText.innerHTML = "Text Updated";
+  }, 2000);
